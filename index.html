@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambhav | Personal Portfolio</title>
+</head>
+
+<body>
+    <!-- Section: WebDev I Lab Assignment 1 | Project: Personal Portfolio | Page: index.html -->
+
+    <a href="#main-content">Skip to main content</a>
+
+    <header>
+        <h1>Sambhav</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section id="hero" aria-labelledby="hero-title">
+            <h2 id="hero-title">Welcome to My Portfolio</h2>
+            <p>
+                Hello! I am Sambhav, a first-year BCA student from Haryana.
+                I enjoy sketching, art, coding, and learning new things.
+            </p>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+
+            <img src="images/profile.svg"
+                 alt="Simple illustrated profile picture representing Sambhav"
+                 width="180"
+                 height="180">
+
+            <p>
+                I am a first-year BCA student from Haryana with an interest in
+                technology and creativity. I enjoy sketching and art, while also
+                developing my coding skills. I am curious about artificial
+                intelligence and prompt writing, and I like learning new
+                concepts and improving my skills.
+            </p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">My Projects</h2>
+
+            <p>
+                I am currently a beginner and have not completed a major project
+                yet. These are some practice projects I am working towards while
+                learning.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Personal Portfolio:</strong>
+                    A simple one-page website created to practice HTML structure
+                    and navigation.
+                </li>
+                <li>
+                    <strong>Sketch Gallery:</strong>
+                    A future webpage where I can display and organize my artwork.
+                </li>
+                <li>
+                    <strong>Beginner Calculator:</strong>
+                    A planned coding project to practice programming logic and
+                    basic calculations.
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Technical Skills</h2>
+
+            <table border="1">
+                <caption>My Current Skills and Learning Levels</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Skill</th>
+                        <th scope="col">Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sketching and Art</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>AI Language Knowledge</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>AI Prompt Knowledge</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Me</h2>
+
+            <form action="mailto:s4mbhav18@gmail.com"
+                  method="post"
+                  enctype="text/plain">
+
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Enter your name"
+                           required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="30"
+                              placeholder="Enter your message"
+                              required></textarea>
+                </p>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sambhav. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
